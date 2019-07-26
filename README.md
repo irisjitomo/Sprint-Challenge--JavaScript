@@ -27,16 +27,44 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+_____________________________________________________________________________________________________________________________
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+This biggest difference between .forEach and .map is that forEach returns the same array with different items but .map makes a whole new array using info from its source array.
+
+_____________________________________________________________________________________________________________________________
+
 2. What is the difference between a function and a method?
+
+Methods are different from functions because, while methods are still functions, methods are inside an object.
+
+_____________________________________________________________________________________________________________________________
 
 3. What is closure?
 
+Closures are functions within a function. The inner functions can reach outward BUT can never reach inward for variables. The most inner function can reach variables as outward
+as the global scope, but the first function can never reach inward for variables.
+
+_____________________________________________________________________________________________________________________________
+
 4. Describe the four rules of the 'this' keyword.
 
+GLOBAL - prints out the whole window, the whole javascript.
+
+IMPLICIT BINDING - When we have a function inside an object, we can reference properties in an object by using this.
+For example: if we have a name value pair (name: 'Iris'), we can refer to name using this.name to use in a method nested inside that same object where we reffered to name.
+
+NEW - We use the 'new; keyword which makes a new function and we use this. to point to it.
+
+EXPLICIT - when a function is outside an object we can use 'call', 'apply', and 'bind' to call it with an object
+
+_____________________________________________________________________________________________________________________________
+
 5. Why do we need super() in an extended class?
+
+We need super() in an extended class because it will be able to recall the properties made in the class in which we are extending or inhertiting from.
+_____________________________________________________________________________________________________________________________
 
 ## Project Set up
 
